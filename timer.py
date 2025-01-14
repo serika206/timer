@@ -7,7 +7,7 @@ from playsound import playsound
 
 import os
 
-print('getcwd:      ', os.getcwd())
+# print('getcwd:      ', os.getcwd())
 
 sound_list = []
 with open(f"{os.getcwd()}/time.txt","r") as fp:
